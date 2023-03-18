@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +10,35 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=cyrillic">  
     <link rel="stylesheet" href="./produkt.css">
     <title>Наша продукция</title>
-</head>
-<body >
-  <div class="products-filter">
-    <button class="button button_type_all" data-filter="all">Все товары</button>
-    <button class="button button_type_MacCoffee" data-filter="MacCoffee">MacCoffee</button>
-    <button class="button button_type_Jacobs" data-filter="Jacobs">Jacobs</button>
-    <button class="button button_type_Nescafe" data-filter="Nescafe">Nescafe</button>
-    <button class="button button_type_Lavazza" data-filter="Lavazza">Lavazza</button>
-    <button class="button button_type_Dallmayr" data-filter="Dallmayr">Dallmayr</button>
-    <button class="button button_type_Segafredo" data-filter="Segafredo">Segafredo</button>
-    <button class="button button_type_Kimbo" data-filter="Kimbo">Kimbo</button>
-    <button class="button button_type_Dolce-Aroma" data-filter="Dolce-Aroma">Dolce Aroma</button>
-    <button class="button button_type_Ambrosiano" data-filter="Ambrosiano">Ambrosiano</button>
-    <button class="button button_type_Felice" data-filter="Felice">Felice</button>
-    <button class="button button_type_Zokey" data-filter="Zokey">Жокей</button>
-    <button class="button button_type_Paulig" data-filter="Paulig">Paulig</button>
-</div>
-<div class="products__list" >
-  <div class="products__item MacCoffee" >
+  </head>
+  <body >
+    <header>
+      <div class="products-filter">
+        <button class="button button_type_all" data-filter="all">Все товары</button>
+        <button class="button button_type_MacCoffee" data-filter="MacCoffee">MacCoffee</button>
+        <button class="button button_type_Jacobs" data-filter="Jacobs">Jacobs</button>
+        <button class="button button_type_Nescafe" data-filter="Nescafe">Nescafe</button>
+        <button class="button button_type_Lavazza" data-filter="Lavazza">Lavazza</button>
+        <button class="button button_type_Dallmayr" data-filter="Dallmayr">Dallmayr</button>
+        <button class="button button_type_Segafredo" data-filter="Segafredo">Segafredo</button>
+        <button class="button button_type_Kimbo" data-filter="Kimbo">Kimbo</button>
+        <button class="button button_type_Dolce-Aroma" data-filter="Dolce-Aroma">Dolce Aroma</button>
+        <button class="button button_type_Ambrosiano" data-filter="Ambrosiano">Ambrosiano</button>
+        <button class="button button_type_Felice" data-filter="Felice">Felice</button>
+        <button class="button button_type_Zokey" data-filter="Zokey">Жокей</button>
+        <button class="button button_type_Paulig" data-filter="Paulig">Paulig</button>
+      </div>
+    </header>
+    <section class="filter">
+      <div> 
+        <button class="button button_type_zerno verh" data-filter="zerno">Зерновой</button>
+        <button class="button button_type_molot verh" data-filter="molot">Молотый</button>
+        <button class="button button_type_subl verh" data-filter="subl">Сублемированный</button>
+        <button class="button button_type_3v1 verh" data-filter="3v1">3в1</button>
+        <button class="button button_type_kapsula verh" data-filter="kapsula">Капсулы</button>
+      </div>
+      <div class="products__list" >
+        <div class="products__item MacCoffee 3v1" >
     <a href="#" class="products__link">
       <div class="products__price">
         <div class="products__price-amount">
@@ -38,13 +48,14 @@
       <div class="products__content">
         <img src="./img/maccoffee/di-torino-schoco.webp" class="products__img" alt="">
         <div class="products__desc">
-          <div class="products__desc-text">Di Torino Шоколад 20 шт.</div>
-          <div href="#" class="products__btn btn">Подробнее</div>
+          <div class="products__desc-text"><h3>Di Torino Шоколад 20 шт.</h4> 
+            Капучино Cappuccino di Torino - это знаменитая рецептура превосходного капучино с настоящей шоколадной крошкой из темного бельгийского шоколада, изобретенная в городе ТуринИтальянская рецептура, соединили вместе кофе, сахар, сливки и добавив к этим ингредиентам бельгийский темный шоколад.
+          </div>
         </div>
       </div>
     </a>
-  </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -55,14 +66,13 @@
             <img src="./img/maccoffee/pure-arabica-crema.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Pure Arabica Crema.
+                <h3>Pure Arabica Crema</h3>Кофе в зёрнах. Чистый вкус 100% арабики - самого премиального сорта кофе, без примесей. Обжаренные на современном итальянском оборудовании зёрна Арабики позволяют приготовить напиток на любой вкус, от крепкого эспрессо до нежного капучино. Кофе имеет нотки карамели, шоколада и фруктов.
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee 3v1" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -73,14 +83,13 @@
             <img src="./img/maccoffee/di-torino-korica.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Di Torino Корица 20 шт.
+                <h3>Di Torino Корица 20 шт.</h3>
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee 3v1" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -91,14 +100,14 @@
             <img src="./img/maccoffee/latte-caramel.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Latte Caramel 20 шт.
+                <h3>Latte Caramel 20 шт.</h3>
+                Ароматный растворимый кофе MacCoffee Latte Al Caramello со вкусом карамели. <p>MacCoffee Latte Al CaramelloMacCoffee представил продукт, который сочетает в себе молочность, нежную пенку и притягательный карамельный вкус.
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Jacobs" >
+        </div>
+        <div class="products__item Jacobs zerno" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -109,14 +118,13 @@
             <img src="./img/jacobs/jacobs-Kronung.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Kronung
+                <h3>Kronung</h3> Сладкий сбалансированный зерновой кофе с фруктовыми нотами, с ароматом орехов, шоколада, яблока и сандала, во вкусе ноты арбуза и лесного ореха, долгое послевкусие. Хорошо раскрывается в эспрессо, в том числе в автоматических кофемашинах, гейзерной кофеварке и турке.
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Jacobs" >
+        </div>
+        <div class="products__item Jacobs subl" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -127,14 +135,14 @@
             <img src="./img/jacobs/jacobs-monah.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Monarch
+                <h3>Monarch</h3> 
+                Растворимый кофе высококачественный, ароматный, вкусный напиток, созданный популярным во всем мире кофейным брендом. Напиток имеет мягкий, нежный вкус и аромат, в котором переплетаются кофейные, молочные и шоколадные ноты.
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Nescafe" >
+        </div>
+        <div class="products__item Nescafe subl" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -145,14 +153,13 @@
             <img src="./img/nescafe/nescafe-crema.webp" class="products__img" alt="">
             <div class="products__desc">
               <div class="products__desc-text">
-                Classic Crema
+                <h3>Classic Crema</h3> Растворимый,высококачественный, ароматный, вкусный напиток, созданный популярным во всем мире кофейным брендом. Напиток имеет мягкий, нежный вкус и аромат, в котором переплетаются кофейные, молочные и шоколадные ноты.
               </div>
-              <div href="#" class="products__btn btn">Подробнее</div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee zerno" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -162,13 +169,14 @@
           <div class="products__content">
             <img src="./img/maccoffee/pure-espresso-forte.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Pure Espresso Forte</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Pure Espresso Forte</h3> Насыщенный и сбалансированный молотый кофе с нотками темного шоколада и фруктов. Идеален для приготовления эспрессо, подойдет также для латте и капучино.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee 3v1" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -178,13 +186,15 @@
           <div class="products__content">
             <img src="./img/maccoffee/di-torino-schoco5.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Di Torino Шоколад 5 шт.</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Di Torino Шоколад 5 шт.</h3>
+                 Капучино Cappuccino di Torino - это знаменитая рецептура превосходного капучино с настоящей шоколадной крошкой из темного бельгийского шоколада, изобретенная в городе ТуринИтальянская рецептура, соединили вместе кофе, сахар, сливки и добавив к этим ингредиентам бельгийский темный шоколад.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee 3v1" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -194,13 +204,14 @@
           <div class="products__content">
             <img src="./img/maccoffee/dolce-vita5.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Dolce Vita 5 шт.</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Dolce Vita 5 шт.</h3>
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item MacCoffee" >
+        </div>
+        <div class="products__item MacCoffee 3v1" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -210,13 +221,15 @@
           <div class="products__content">
             <img src="./img/maccoffee/latte-caramel5.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Latte Caramel 5 шт.</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Latte Caramel 5 шт.</h3>
+                Ароматный растворимый кофе MacCoffee Latte Al Caramello со вкусом карамели. MacCoffee Latte Al CaramelloMacCoffee представил продукт, который сочетает в себе молочность, нежную пенку и притягательный карамельный вкус.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Lavazza" >
+        </div>
+        <div class="products__item Lavazza molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -226,13 +239,14 @@
           <div class="products__content">
             <img src="./img/lavazza/crema-e-gusto.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Crema E Gusto</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Crema E Gusto</h3>Молотый кофе Lavazza Crema e Gusto представляет собой уникальной смесь премиум класса, состоящую из бразильской арабики и индийской робусты в соотношении 30 % на 70 %. Смесь Lavazza Crema e Gusto отличается восхитительным ароматом и интенсивным, крепким вкусом.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Lavazza" >
+        </div>
+        <div class="products__item Lavazza molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -242,13 +256,14 @@
           <div class="products__content">
             <img src="./img/lavazza/suerte.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Suerte</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Suerte</h3>Молотый кофе Lavazza Suerte – 100% робуста, кофе с очень интенсивным ароматом, крепким вкусом, плотной пенкой. Этот кофе взбодрит Вас на целый день. Бренд, торговая марка или название предприятия-производителя, под знаком которого изготовлен товар.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Lavazza" >
+        </div>
+        <div class="products__item Lavazza molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -258,13 +273,14 @@
           <div class="products__content">
             <img src="./img/lavazza/qualita-rossa.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Qualita Rossa</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
-            </div>
+              <div class="products__desc-text">
+                <h3>Qualita Rossa.</h3> Кофе Lavazza Qualita Rossa — это купаж с уникальным ароматом, полным телом и исключительной округлостью, состоящий преимущественно из бразильской арабики и африканской робусты.
+              </div>
+             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Lavazza" >
+        </div>
+        <div class="products__item Lavazza molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -274,13 +290,14 @@
           <div class="products__content">
             <img src="./img/lavazza/bqualita-rossa.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Qualita Rossa</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Qualita Rossa</h3> Кофе Lavazza Qualita Rossa — это купаж с уникальным ароматом, полным телом и исключительной округлостью, состоящий преимущественно из бразильской арабики и африканской
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Dallmayr" >
+        </div>
+        <div class="products__item Dallmayr zerno" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -290,13 +307,14 @@
           <div class="products__content">
             <img src="./img/dallmayr/classic.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Classic</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Classic</h3>Кофе зерновой Dallmayr Classic, 0,5 кг — купаж арабики и робусты. Смесь создана немецкими мастерами на основе промытых и высушенных отборных зерен с высокогорных плантаций Бразилии, Эфиопии, Колумбии, Новой Гвинеи.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Dallmayr" >
+        </div>
+        <div class="products__item Dallmayr molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -306,13 +324,14 @@
           <div class="products__content">
             <img src="./img/dallmayr/classic-kraftig.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Classic kraftig</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Classic kraftig</h3>Dallmayr Classic CRAFTING — классический купаж отборных зерен Арабики и Робусты в лучших немецких традициях. Напиток имеет благородный, хорошо сбалансированный вкус. Характерная для Арабики кислинка почти отсутствует. Аромат интенсивный, чистый и глубокий.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Dallmayr" >
+        </div>
+        <div class="products__item Dallmayr molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -322,13 +341,15 @@
           <div class="products__content">
             <img src="./img/dallmayr/classic-05.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Classic</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Classic</h3>
+                Кофе молотый Dallmayr Classic, 0,5 кг — купаж арабики (65%) и робусты (35%), предназначенный для приготовления напитков во френч-прессе, чашке, капельной кофеварке. Смесь создана немецкими мастерами на основе промытых и высушенных отборных зерен с высокогорных плантаций Бразилии, Эфиопии, Колумбии, Новой Гвинеи.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Segafredo" >
+        </div>
+        <div class="products__item Segafredo molot" >
         <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -338,13 +359,15 @@
           <div class="products__content">
             <img src="./img/Segafredo/intetmezzo.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Intermezzo</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Intermezzo</h3>
+                Отличается интенсивным вкусом с миндальными нотами, которые обеспечивают великолепный характер и интенсивный аромат. Тёмнообжаренная смесь Интермеццо обладает полнотой вкуса и энергии, которая делает каждый момент дня приятным. Идеально подходит классического итальянского эспрессо.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Segafredo">
+        </div>
+        <div class="products__item Segafredo molot">
           <a href="#" class="products__link">
           <div class="products__price">
             <div class="products__price-amount">
@@ -354,13 +377,15 @@
           <div class="products__content">
             <img src="./img/Segafredo/espresso-casa.webp" class="products__img" alt="">
             <div class="products__desc">
-              <div class="products__desc-text">Espresso Casa</div>
-              <div href="#" class="products__btn btn">Подробнее</div>
+              <div class="products__desc-text">
+                <h3>Espresso Casa</h3>
+                Segafredo Espresso Casa – 90% отборной арабики и 10% высококачественной робусты. Полный и сливочный вкус. Арабика и робуста сочетаются с приятной гладкостью и слегка пряным ароматом выпечки.
+              </div>
             </div>
           </div>
         </a>
-      </div>
-      <div class="products__item Kimbo">
+        </div>
+        <div class="products__item Kimbo molot">
         <a href="#" class="products__link">
         <div class="products__price">
           <div class="products__price-amount">
@@ -370,13 +395,14 @@
         <div class="products__content">
           <img src="./img/kimbo/espresso-napoletano.webp" class="products__img" alt="">
           <div class="products__desc">
-            <div class="products__desc-text">Espresso Napoletano</div>
-            <div href="#" class="products__btn btn">Подробнее</div>
+            <div class="products__desc-text"><h3>Espresso Napoletano</h3>
+              Kimbo Espresso Napoletano - кофе сильной неаполитанской обжарки из лучшей арабики и робусты с плантаций Бразилии. Напиток обладает крепким, богатым вкусом и ароматом с лёгкой горчинкой.
+            </div>
           </div>
         </div>
       </a>
-    </div>
-    <div class="products__item Kimbo">
+        </div>
+        <div class="products__item Kimbo zerno">
       <a href="#" class="products__link">
       <div class="products__price">
         <div class="products__price-amount">
@@ -386,13 +412,15 @@
       <div class="products__content">
         <img src="./img/kimbo/aroma-gold.webp" class="products__img" alt="">
         <div class="products__desc">
-          <div class="products__desc-text">Aroma Gold</div>
-          <div href="#" class="products__btn btn">Подробнее</div>
+          <div class="products__desc-text">
+            <h3>Aroma Gold</h3>
+            Натуральный жареный кофе в зернах Kimbo Aroma Gold 100% Arabica. Смесь превосходной арабики отличается нежным вкусом, мягкой кислинкой и тонким ароматом. Состав смеси: 100% арабика. Невероятная смесь 100% арабики из кофейных зерен премиум-класса из Центральной и Южной Америки.
+          </div>
         </div>
       </div>
     </a>
-  </div>
-  <div class="products__item Kimbo">
+        </div>
+        <div class="products__item Kimbo molot">
     <a href="#" class="products__link">
     <div class="products__price">
       <div class="products__price-amount">
@@ -402,13 +430,14 @@
     <div class="products__content">
       <img src="./img/kimbo/aroma-italiano.webp" class="products__img" alt="">
       <div class="products__desc">
-        <div class="products__desc-text">Aroma Italiano</div>
-        <div href="#" class="products__btn btn">Подробнее</div>
+        <div class="products__desc-text">
+          <h3>Aroma Italiano</h3>Kimbo Aroma Italiano — это элегантная и насыщенная смесь отборных зерен Арабики (35%) и Робусты (65%). Идеально для приготовления эспрессо! Жгучая Робуста придает напитку насыщенность и крепость, а деликатная Арабика делает его особенно ароматным и благородным
+        </div>
       </div>
     </div>
   </a>
-</div>
-<div class="products__item Kimbo">
+        </div>
+        <div class="products__item Kimbo molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -418,13 +447,14 @@
   <div class="products__content">
     <img src="./img/kimbo/macinato-fresco.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Macinato Fresco</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text"><h3>Macinato Fresco</h3>
+        Кофе Kimbo Macinato Fresco — это волшебный купаж, состоящий из двух самых востребованных кофейных сортов: арабики и робусты, которые были собраны на элитных плантациях Бразилии и Центральной Америки. Оптимальное процентное соотношение сортов — 80% к 20% — с преобладанием молотых зерен арабики является идеальным для приготовления классического эспрессо.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Dolce-Aroma">
+        </div>
+        <div class="products__item Dolce-Aroma zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -434,13 +464,14 @@
   <div class="products__content">
     <img src="./img/Dolce Aroma/dolce.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Dolce</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Dolce</h3>Один из лучших блендов для приготовления эспрессо. Его мягкий и гармоничный вкус принесет наслаждение всем.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Dolce-Aroma">
+        </div>
+        <div class="products__item Dolce-Aroma zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -450,13 +481,14 @@
   <div class="products__content">
     <img src="./img/Dolce Aroma/bar.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Bar</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Bar</h3>Сбалансированный купаж Dolce Aroma BAR делает вкус кофе насыщенным и бархатистым, с легкой кислинкой и терпковатым послевкусием горького шоколада. А особый метод обжарки помогает сохранить все натуральные свойства зерна.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Dolce-Aroma">
+        </div>
+        <div class="products__item Dolce-Aroma zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -466,13 +498,15 @@
   <div class="products__content">
     <img src="./img/Dolce Aroma/gusto-forte.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Gusto Forte</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Gusto Forte</h3>
+        Dolce Aroma Gusto Forte - благодаря специальному обжариванию, обладает насыщенным вкусом, легкой горчинкой и шоколадным послевкусием.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Dolce-Aroma">
+        </div>
+        <div class="products__item Dolce-Aroma zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -482,13 +516,15 @@
   <div class="products__content">
     <img src="./img/Dolce Aroma/super-crema.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Super Crema</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Super Crema</h3>
+        SUPER CREMA Dolce Aroma - это отлично сбалансированный купаж с содержанием 30% арабики и 70% робусты, обладающий уникальным вкусом. Из зерен получается крепкий, ароматный напиток с пикантной горчинкой и карамельным послевкусием, украшенный золотистой пенкой.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Ambrosiano">
+        </div>
+        <div class="products__item Ambrosiano zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -498,13 +534,15 @@
   <div class="products__content">
     <img src="./img/Ambrosiano/porta-nuova.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Porta Nuova</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Porta Nuova</h3>
+        Кофейная смесь итальянского качества. Идеальный баланс арабики и робусты придает кофе оттенки лесного ореха, миндаля и подчеркивает нотки специй. Кофейная пенка имеет красивый карамельно-золотистый оттенок.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Ambrosiano">
+        </div>
+        <div class="products__item Ambrosiano zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -514,13 +552,14 @@
   <div class="products__content">
     <img src="./img/Ambrosiano/la-scala.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">La Scala</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text"><h3>La Scala</h3>
+        Кофейная смесь LA SCALA-зерновой кофе итальянского качества . Имеет сливочный вкус, в котором можно уловить нотки ванили, лесного ореха и шоколада. Кофейная пенка имеет красивый карамельно-золотистый оттенок. Идеально подходит для профессиональных и автоматических кофемашин.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Felice">
+        </div>
+        <div class="products__item Felice zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -530,13 +569,15 @@
   <div class="products__content">
     <img src="./img/Felice/oro.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Oro</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Oro</h3>
+        Купаж робусты и арабики Caffe in grani Felice Oro позволяет получить напиток умеренной крепости, с насыщенным вкусом и густой пенкой, а средняя степень обжарки зерна выгодно подчеркивает вкусовые достоинства данного купажа.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Felice">
+        </div>
+        <div class="products__item Felice zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -546,13 +587,15 @@
   <div class="products__content">
     <img src="./img/Felice/crema.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Crema</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Crema</h3>
+        Данный купаж с преобладанием робусты обеспечивает Caffe in grani Felice Crema классическую шоколадную горчинку, а средняя степень обжарки зерна позволяет получить напиток насыщенный, умеренно крепкий, ароматный, но в то же время мягкий и сливочный
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Felice">
+        </div>
+        <div class="products__item Felice zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -562,13 +605,15 @@
   <div class="products__content">
     <img src="./img/Felice/top-class.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Top class</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Top class</h3>
+        Данный купаж с преобладанием робусты обеспечивает Caffe in grani Felice Crema классическую шоколадную горчинку, а средняя степень обжарки зерна позволяет получить напиток насыщенный, умеренно крепкий, ароматный, но в то же время мягкий и сливочный
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Zokey">
+        </div>
+        <div class="products__item Zokey zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -578,13 +623,15 @@
   <div class="products__content">
     <img src="./img/жокей/традиционный.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Традиционный</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Традиционный</h3>
+        Кофе во французском стиле — плотный, густой вкус с приятной горчинкой удивительно сочетается с легкими сладко-ванильными нотами в аромате.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Zokey">
+        </div>
+        <div class="products__item Zokey subl">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -594,13 +641,15 @@
   <div class="products__content">
     <img src="./img/жокей/триумф.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Триумф</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Триумф</h3>
+        Растворимый сублимированный кофе из отборной арабики. Отличается мягким, хорошо сбалансированным вкусом и ярким ароматом.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Zokey">
+        </div>
+        <div class="products__item Zokey zerno">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -610,13 +659,15 @@
   <div class="products__content">
     <img src="./img/жокей/классический.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Классический</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Классический</h3>
+        Сложное, точно выверенное сочетание отборной арабики из Бразилии, Мексики и Камеруна. Отличается мягким сладковатым вкусом с деликатной кислинкой и бархатистым ароматом.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Zokey">
+        </div>
+        <div class="products__item Zokey molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -626,13 +677,15 @@
   <div class="products__content">
     <img src="./img/жокей/по-восточному.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">По-восточному</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>По-восточному</h3>
+        Уникальный бленд сортов Арабики из Бразилии, Эфиопии и Индии. Обладает насыщенным выраженным вкусом с пикантными пряными оттенками, приятным послевкусием и хорошо выраженным ароматом с нотой горького шоколада. Тонкий помол позволяет заваривать кофе прямо в чашке, залив его горячей водой.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Paulig">
+        </div>
+        <div class="products__item Paulig molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -642,13 +695,15 @@
   <div class="products__content">
     <img src="./img/paulig/black-label.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Black Label</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Black Label</h3>
+        Black Label – это премиальный темный кофе высочайшего качества. Редкие кофейные зерна из Папуа – Новой Гвинеи, которые называются «Сигри», дарят напитку яркий, насыщенный вкус.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Paulig">
+        </div>
+        <div class="products__item Paulig molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -658,13 +713,15 @@
   <div class="products__content">
     <img src="./img/paulig/gold-label.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Gold Label</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Presidentti Gold Label</h3>
+        Его отличают легкая обжарка, богатый аромат и мягкий вкус с легкими цветочно-фруктовыми нотками.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Paulig">
+        </div>
+        <div class="products__item Paulig molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -674,13 +731,15 @@
   <div class="products__content">
     <img src="./img/paulig/original.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Original</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Presidentti ORIGINAL </h3>
+        Приготовлен из зерен 100%-ной Арабики средней обжарки. Cбалансированный богатый вкус с легкими черносмородиновыми нотками.
+      </div>
     </div>
   </div>
 </a>
-</div>
-<div class="products__item Paulig">
+        </div>
+        <div class="products__item Paulig molot">
   <a href="#" class="products__link">
   <div class="products__price">
     <div class="products__price-amount">
@@ -690,14 +749,16 @@
   <div class="products__content">
     <img src="./img/paulig/mokka.webp" class="products__img" alt="">
     <div class="products__desc">
-      <div class="products__desc-text">Mokka</div>
-      <div href="#" class="products__btn btn">Подробнее</div>
+      <div class="products__desc-text">
+        <h3>Mokka</h3>
+        Paulig Mokka разработан специально для российских любителей кофе, которые традиционно ценят крепость вкуса и насыщенный аромат.
+      </div>
     </div>
   </div>
 </a>
-</div>
-  </div>
-<script src="./produkt.js"></script>
-
-</body>
+        </div>
+      </div>
+    </section>
+    <script src="./produkt.js"></script>
+  </body>
 </html>
