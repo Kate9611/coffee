@@ -1,7 +1,7 @@
 @import url(./fonts/fonts.css);
 @import url(./fonts/normalize.css);
 
-    body {
+    .page {
         margin: 0 auto;
         padding: 0;
         text-align: center;
@@ -241,6 +241,7 @@
         .map__info{
           margin:0 30px;
           display: inline-flex;
+    justify-content: center;
         }
     .map__ikonka{
       width: 20px;
@@ -270,19 +271,19 @@
   color: #212121;
   background: #fcf5e6;
   margin: 10px auto;
-  max-width: 1152px;
+  max-width: 1440px;
   font-style: normal;
   font-size: 16px;
   text-align: center;
+  justify-content: center;
   display: flex;
        }
-
+       
           /* ---- products-filter ---- */
           
           .products-filter {
-            width: 200px;
             display:flex;
-            margin: 148px 0 104px 0;
+            margin: 148px 0 104px 30px;
             padding: 0;
             flex-direction: column;
             position:relative;
@@ -291,7 +292,7 @@
             background: #212121;
           }
           .button {
-            padding: 12px 12px 12px 12px;
+            padding: 12px;
             margin: 0;
             color: #212121;
             text-transform: uppercase;
@@ -347,7 +348,6 @@
           /* ---- products ---- */
           
           .products__list {
-            width: 850px;
             margin: 0;
             display: flex;
             flex-wrap: wrap;
